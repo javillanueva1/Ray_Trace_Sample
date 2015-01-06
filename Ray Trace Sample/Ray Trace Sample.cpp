@@ -210,7 +210,7 @@ int Read_Information()
 	/*Read in the the mesh data file*/
 	fscanf(inpfile, "%s %s\n", str, &filename);
 	if ((meshfile = fopen(filename, "rb")) == NULL) {
-		printf("Could not open bsplinemesh.dk for read\n");
+		printf("Could not open bsplinemesh.jv for read\n");
 		num_triangles = -1;
 		num_vertices = -1;
 	}
