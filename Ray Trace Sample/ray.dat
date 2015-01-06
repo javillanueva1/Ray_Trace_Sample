@@ -1,0 +1,34 @@
+From 17.0 7.0 24.0
+
+At 2.0 7.0 0.0
+
+Up 0.0 1.0 0.0
+
+ViewAngle 100.0
+
+ViewportXMinMax -0.5 0.5
+
+ViewportYMinMax -0.5 0.5
+
+LightDirection 3.0 2.0 1.0
+
+Sphere1 5.0 2.5 9.0 2.5
+
+Sphere2 7.0 5.5 7.0 2.0
+
+Sphere3 9.0 8.0 5.0 1.5
+
+Plane1 0.0 0.0 1.0 0.0
+
+Plane2 1.0 0.0 0.0 0.0
+
+Plane3 0.0 1.0 0.0 0.0
+
+Plane1MinMax 0.0 0.0 -0.0001 15.0 15.0 0.0001
+Plane2MinMax -0.0001 0.0 0.0 0.0001 15.0 15.0
+
+Plane3MinMax 0.0 -0.0001 0.0 15.0 0.0001 15.0
+
+ImageSize 400 400
+
+Mesh bsplinemesh.jv
